@@ -1,0 +1,49 @@
+body{
+	background: #000000;
+	font-family: Arial;
+}
+
+#main {
+	margin-top: 10%;
+}
+
+img{
+	height: 180px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#title{
+	color:#ffffff;
+	text-align: center;
+}
+
+hr {
+	margin-top: 40px;
+}
+
+#buttons button {
+    background-color: black;
+    border: 1px solid #ffffff;
+    color: white;
+    padding: 15px 80px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 20px;
+    border-radius: 4px;
+}
+
+#buttons button:hover {
+    background-color: gray;
+}
+
+#buttons form {
+	display: inline-block;
+}
+
+#buttons {
+	text-align: center;
+	margin-right: 20px;
+}

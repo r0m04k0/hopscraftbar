@@ -1,0 +1,148 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	
+	<title>HOPS CraftBar</title>
+	<meta charset = "utf-8">
+
+	<style>
+		
+		body{
+			background: #000;
+			font-family: Arial;
+		}
+
+		img{
+			height: 180px;
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		#title{
+			color:#ffffff;
+			text-align: center;
+		}
+
+		hr {
+			margin-top: 40px;
+			align: center; 
+			width: 1000px; 
+			size: 2; 
+			color: #ffffff;
+		}
+	
+		#buttons button {
+			background-color: black;
+			border: 1px solid #ffffff;
+			color: white;
+			padding: 15px 70px;
+			text-align: center;
+			text-decoration: none;
+			font-size: 20px;
+			margin-left: 20px;
+			margin-top: 10px;
+			border-radius: 4px;
+		}
+
+		#buttons {
+			text-align: center;
+		}
+
+		@media screen and (min-width: 1240px)  
+		{
+			body{
+				max-width: 100%;
+			}
+			
+			#main {
+				margin-top: 10%;
+			}
+		
+			#buttons {
+				margin-right: 20px;
+			}
+			
+			#buttons form {
+				display: inline-block;
+			}
+				
+			#buttons button:hover {
+			background-color: gray;
+			}
+		
+		}
+		
+		@media all and (min-width: 200px) and (max-width: 1024px) 
+		{
+			body{
+				max-width: 100%;
+				max-height: auto;
+			}
+			
+			img{
+			height: 300px;
+			}
+			
+			#title{
+				font-size: 30px;
+			}
+		
+			#main {
+				margin-top: 40%;
+			}
+		
+			hr {
+				width: 80%; 
+				size: 4; 
+			}
+		
+			#buttons button {
+			margin-top: 30px;
+			padding: 20px 200px;
+			font-size: 30px;
+			margin-left: 20px;
+			border-radius: 4px;
+			}
+			
+			#buttons {
+				margin-right: 20px;
+			}
+		}
+
+	</style
+
+</head>
+
+<body text="#ffffff">
+	
+	<div id="main">
+		
+		<img src="static/images/logo.jpeg" alt="Логотип">
+		
+		<div id="title">
+			<h2>Почему ты здесь?</h2>
+		</div>	
+		
+		<hr/>
+		
+		<div id="buttons">
+			<form action="about.html">
+				<button>&emsp;О нас&emsp;</button>
+			</form>
+			<form action="menu.html">
+				<button>&emsp;Меню&emsp;</button>
+			</form>
+			<form action="galery.html">
+				<button>&ensp;Галерея&ensp;</button>
+			</form>
+			<form action="contacts.html">
+				<button>&nbsp;Контакты&nbsp;</button>
+			</form>
+		</div>
+		
+	</div>
+
+</body>
+</html>
